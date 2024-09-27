@@ -13,15 +13,3 @@ void sieve()
         }
     }
 }
-int main()
-{
-    sieve();
-    int n;
-    cin>>n;
-    while(n--)
-    {
-        int x;
-        cin>>x;
-        cout<<prime[x]<<'\n';
-    }
-}
